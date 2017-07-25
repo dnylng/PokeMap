@@ -18,7 +18,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     let locationManager = CLLocationManager()
     var mapHasCenteredOnce = false
     var geoFire: GeoFire!
-    var geoFireRef: DatabaseReference
+    var geoFireRef: DatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
